@@ -10,10 +10,10 @@ readme = "README.md"
 requires-python = ">=3.8"
 license = {text = "MIT"}
 authors = [
-    {name = "Radomir Brkovic", email = "brkovic.radomir@gmail.com"}
+    {name = "Codevelo", email = "info@codevelo.io"}
 ]
 maintainers = [
-    {name = "Radomir Brkovic", email = "brkovic.radomir@gmail.com"}
+    {name = "Codevelo", email = "info@codevelo.io"}
 ]
 keywords = [
     "email",
@@ -94,11 +94,11 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/radomirbrkovic/mailbridge"
-Documentation = "https://github.com/radomirbrkovic/mailbridge#readme"
-Repository = "https://github.com/radomirbrkovic/mailbridge"
-Issues = "https://github.com/radomirbrkovic/mailbridge/issues"
-Changelog = "https://github.com/radomirbrkovic/mailbridge/blob/main/CHANGELOG.md"
+Homepage = "https://github.com/codevelo-pub/mailbridge"
+Documentation = "https://github.com/codevelo-pub/mailbridge#readme"
+Repository = "https://github.com/codevelo-pub/mailbridge"
+Issues = "https://github.com/codevelo-pub/mailbridge"
+Changelog = "https://github.com/codevelo-pub/mailbridge/blob/main/CHANGELOG.md"
 
 [tool.setuptools]
 packages = ["mailbridge", "mailbridge.providers", "mailbridge.dto"]

@@ -1,7 +1,7 @@
 # MailBridge 📧
 
 # MailBridge  
-[![CI](https://github.com/radomirbrkovic/mailbridge/actions/workflows/tests.yml/badge.svg)](https://github.com/radomirbrkovic/mailbridge/actions/workflows/tests.yml)
+[![CI](https://github.com/codevelo-pub/mailbridge/actions/workflows/tests.yml/badge.svg)](https://github.com/codevelo-pub/mailbridge/actions/workflows/tests.yml)
 [![PyPI version](https://img.shields.io/pypi/v/mailbridge.svg)](https://pypi.org/project/mailbridge/)
 [![codecov](https://codecov.io/gh/radomirbrkovic/mailbridge/branch/main/graph/badge.svg)](https://codecov.io/gh/radomirbrkovic/mailbridge)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -138,7 +138,7 @@ mailer = MailBridge(
 
 - [Get API Key](https://app.sendgrid.com/settings/api_keys)
 - [Documentation](https://docs.sendgrid.com/)
-- [Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/sengrid_basic.py)
+- [Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/sengrid_basic.py)
 
 ---
 
@@ -163,7 +163,7 @@ mailer = MailBridge(
 
 - [SES Console](https://console.aws.amazon.com/ses/)
 - [Documentation](https://docs.aws.amazon.com/ses/)
-- [Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/ses_basic.py)
+- [Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/ses_basic.py)
 
 **Note:** Email addresses must be verified in sandbox mode. Request production access to send to any email.
 
@@ -190,7 +190,7 @@ response = mailer.send(
 
 - [Get Token](https://account.postmarkapp.com/servers)
 - [Documentation](https://postmarkapp.com/developer)
-- [Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/postmark_basic.py)
+- [Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/postmark_basic.py)
 
 ---
 
@@ -208,7 +208,7 @@ mailer = MailBridge(
 - [Get API Key](https://app.mailgun.com/settings/api_security)
 - [Documentation](https://documentation.mailgun.com/)
 
-**Note:** Uses same API as SendGrid. See [SendGrid examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/sendgrid_basic.py) for usage patterns.
+**Note:** Uses same API as SendGrid. See [SendGrid examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/sendgrid_basic.py) for usage patterns.
 
 ---
 
@@ -232,7 +232,7 @@ mailer.send(
 - [Get API Key](https://app.brevo.com/settings/keys/api)
 - [Documentation](https://developers.brevo.com/)
 
-**Note:** Similar to SendGrid/Postmark. Template IDs are integers. See [SendGrid examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/sendgrid_basic.py) for usage patterns.
+**Note:** Similar to SendGrid/Postmark. Template IDs are integers. See [SendGrid examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/sendgrid_basic.py) for usage patterns.
 
 ---
 
@@ -273,7 +273,7 @@ mailer = MailBridge(
 )
 ```
 
-- [Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/smtp_basic.py)
+- [Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/smtp_basic.py)
 
 **Gmail:** Use [App Password](https://support.google.com/accounts/answer/185833) (requires 2FA)
 
@@ -431,13 +431,13 @@ print(f"Sent {result.successful} in {result.total_time:.2f}s")
 
 ## 📚 Documentation & Examples
 
-- **[Examples Directory](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/)** - Complete examples for all providers
-  - [SendGrid Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/sendgrid_basic.py) - Basic, template, bulk
-  - [SES Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/ses_basic.py) - AWS setup, templates, bulk
-  - [Postmark Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/postmark_basic.py) - Tracking features
-  - [SMTP Examples](https://github.com/radomirbrkovic/mailbridge/blob/main/examples/smtp_basic.py) - Gmail, Outlook, custom
-- **[Test Suite](https://github.com/radomirbrkovic/mailbridge/blob/main/tests/)** - 156 unit tests, 96% coverage
-- **[Changelog](https://github.com/radomirbrkovic/mailbridge/blob/main/CHANGELOG.md)** - Version history
+- **[Examples Directory](https://github.com/codevelo-pub/mailbridge/blob/main/examples/)** - Complete examples for all providers
+  - [SendGrid Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/sendgrid_basic.py) - Basic, template, bulk
+  - [SES Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/ses_basic.py) - AWS setup, templates, bulk
+  - [Postmark Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/postmark_basic.py) - Tracking features
+  - [SMTP Examples](https://github.com/codevelo-pub/mailbridge/blob/main/examples/smtp_basic.py) - Gmail, Outlook, custom
+- **[Test Suite](https://github.com/codevelo-pub/mailbridge/blob/main/tests/)** - 156 unit tests, 96% coverage
+- **[Changelog](https://github.com/codevelo-pub/mailbridge/blob/main/CHANGELOG.md)** - Version history
 
 ---
 
@@ -447,7 +447,7 @@ MailBridge includes a comprehensive test suite:
 
 ```bash
 # Clone repo
-git clone https://github.com/radomirbrkovic/mailbridge
+git clone https://github.com/codevelo-pub/mailbridge
 cd mailbridge
 
 # Install dev dependencies
@@ -470,7 +470,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ```bash
 # Setup development environment
-git clone https://github.com/radomirbrkovic/mailbridge
+git clone https://github.com/codevelo-pub/mailbridge
 cd mailbridge
 pip install -e ".[dev]"
 
@@ -501,7 +501,7 @@ Built with ❤️ for developers who need reliable email delivery.
 
 ## 📞 Support
 
-- **Issues**: [GitHub Issues](https://github.com/radomirbrkovic/mailbridge/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/radomirbrkovic/mailbridge/discussions)
+- **Issues**: [GitHub Issues](https://github.com/codevelo-pub/mailbridge/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/codevelo-pub/mailbridge/discussions)
 
 ---
